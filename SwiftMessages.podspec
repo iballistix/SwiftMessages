@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-    spec.name             = 'SwiftMessages-iballistix'
-    spec.version          = '9.0.5.1'
+    spec.name             = 'SwiftMessages'
+    spec.version          = '9.0.5.2'
     spec.license          = { :type => 'MIT' }
     spec.homepage         = 'https://github.com/iballistix/SwiftMessages'
     spec.authors          = { 'Timothy Moose' => 'tim@swiftkick.it' }
