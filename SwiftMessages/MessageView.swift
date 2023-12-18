@@ -260,7 +260,7 @@ extension MessageView {
             defaultBackgroundColor = UIColor(red: 225.0/255.0, green: 225.0/255.0, blue: 225.0/255.0, alpha: 1.0)
             defaultForegroundColor = UIColor.darkText
         case .success:
-            defaultBackgroundColor = UIColor(red: 97.0/255.0, green: 161.0/255.0, blue: 23.0/255.0, alpha: 1.0)
+            defaultBackgroundColor = UIColor(red: 44.0/255.0, green: 135.0/255.0, blue: 48.0/255.0, alpha: 1.0)
             defaultForegroundColor = UIColor.white
         case .warning:
             defaultBackgroundColor = UIColor(red: 246.0/255.0, green: 197.0/255.0, blue: 44.0/255.0, alpha: 1.0)
@@ -284,7 +284,7 @@ extension MessageView {
             case .success:
                 backgroundColor = UIColor {
                     switch $0.userInterfaceStyle {
-                    case .dark, .unspecified: return UIColor(red: 55/255.0, green: 122/255.0, blue: 0/255.0, alpha: 1.0)
+                    case .dark, .unspecified: return UIColor(red: 44/255.0, green: 135/255.0, blue: 44/255.0, alpha: 1.0)
                     case .light: fallthrough
                     @unknown default:
                         return defaultBackgroundColor
